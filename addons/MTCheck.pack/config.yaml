@@ -1,0 +1,12 @@
+label: MTCheck Pack
+version: 1.0
+l10n_class: MT::Check::L10N
+author_name: okayama
+author_link: http://weeeblog.net/
+
+applications:
+    wizard: 
+        optional_packages:
+            Net::Twitter:
+                link: http://search.cpan.org/~mmims/Net-Twitter-3.10003/
+                label: This module is required in Twitter
